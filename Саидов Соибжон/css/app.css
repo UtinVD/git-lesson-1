@@ -1,3 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h4{
     text-decoration: line-through;
+}
+.zero{
+background-color: black
+}
+h1{
+    color: orange
+}
+.bb{
+    background-color: black;
+    text-decoration-color: orange;
+    border-radius: 10px;
+}
+h3{
+    color: white;
+    width: 300px;
+}
+h4{
+    color: orange;
+}
+h2{
+    color: white;
+}
+.bs{
+    background-color: orange;
+    text-decoration-color: black;
+    border-radius: 5px
+}
+.two{
+    justify-self: flex-end;
+    align-items: start;
+    width: 619px;
+    height: 517px;
+}
+.one{
+    width: 281px;
 }
