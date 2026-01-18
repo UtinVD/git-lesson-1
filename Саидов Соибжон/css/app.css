@@ -3,41 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-h4{
-    text-decoration: line-through;
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.zero{
-background-color: black
-}
-h1{
-    color: orange
-}
-.bb{
-    background-color: black;
-    text-decoration-color: orange;
+.block{
+    background-color: aqua;
+    width: 100px;
+    height: 150px;
     border-radius: 10px;
 }
-h3{
-    color: white;
-    width: 300px;
+.block1{
+    background-color: aquamarine;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
 }
-h4{
-    color: orange;
+.block2{
+    background-color: aquamarine;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;  
 }
-h2{
-    color: white;
+.block3{
+    background-color: aquamarine;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
 }
-.bs{
-    background-color: orange;
-    text-decoration-color: black;
-    border-radius: 5px
+.block4{
+    background-color: aquamarine;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
 }
-.two{
-    justify-self: flex-end;
-    align-items: start;
-    width: 619px;
-    height: 517px;
-}
-.one{
-    width: 281px;
-}
+
