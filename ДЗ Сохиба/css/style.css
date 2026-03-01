@@ -1,0 +1,28 @@
+body {
+    background-color: #b7b79f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #2f8f46;
+    padding: 30px 80px;
+    font-size: 28px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 0 #8b0000;
+    animation: showCard 1.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes showCard {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
